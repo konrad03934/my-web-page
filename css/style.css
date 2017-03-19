@@ -52,6 +52,24 @@ body {
 	font-family: "Lato", san-serif;
 }
 
+nav {
+	position: fixed;
+	width: 100%;
+	}
+
+#main-nav {
+	text-align: right;
+}
+
+nav ul a {
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 300;
+	padding: 3px 20px;
+}
+
+
 header {
 	height: 350px;
 	background: url("../images/header-background.jpg") top center no-repeat;
@@ -78,21 +96,3 @@ header h2 {
 	color: #53a800;
 }
 
-section {
-	margin: 3%;
-}
-
-.foto {
-	width: 10%;
-	margin: 3% 0;
-	float: left;
-}
-
-.description {
-	width: 80%;
-	float: right;
-}
-
-.description h2 {
-	margin: 3% 0;
-}
