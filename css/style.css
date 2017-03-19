@@ -70,19 +70,20 @@ nav ul a {
 }
 
 
-header {
-	height: 350px;
-	background: url("../images/header-background.jpg") top center no-repeat;
-	background-size: 100%;
+#main-header {
+	background: url("../images/header-background.jpg") center no-repeat;
+	background-size: cover;
 	text-align: center;
 }
 
-header h1 {
+.main-header-content {
+	padding: 30vh;
+}
+
+.main-header-content h1 {
+	font-family: "Roboto", sans-serif;
+	color: #fff;
 	font-size: 5em;
-	font-weight: 700;
-	color: rgba(255, 255, 255, 0.9);
-	position: relative;
-	top: 35%;
 }
 
 header h2 {
