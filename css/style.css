@@ -61,39 +61,67 @@ nav {
 	text-align: right;
 }
 
-nav ul a {
+nav ul li {
 	display: inline-block;
-	text-decoration: none;
-	color: #ffffff;
 	font-weight: 300;
 	padding: 3px 20px;
 }
 
+nav ul li a{
+  text-decoration: none;
+	color: #ffffff;
+}
 
+/*style dla header*/
 #main-header {
 	background: url("../images/header-background.jpg") center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
-
+/*nie trzeba position bo elementy maja pading więc automatycznie będą na środku*/
 .main-header-content {
 	padding: 30vh;
+	font-family: "Roboto", sans-serif;
 }
 
 .main-header-content h1 {
-	font-family: "Roboto", sans-serif;
 	color: #fff;
-	font-size: 5em;
+	font-size: 5em;	
 }
 
 header h2 {
 	font-size: 2.5em;
 	color: rgba(255, 255, 255, 0.7);
-	position: relative;
-	top: 35%;
 }
 
 .green {
 	color: #53a800;
+}
+/*style dla sextion*/
+section {
+	width: 100%;
+	padding: 5% 0;
+}
+
+section h2 {
+	text-align: center;
+	font-size: 1.6em;
+}
+
+
+
+.foto {
+	width: 30%;
+	max-height: 350px;
+	box-sizing: border-box;
+	padding: 5%;
+	float: left;
+}
+
+article {
+	width: 70%;
+	box-sizing: border-box;
+	padding: 1% 5%;
+	float: right;
 }
 
