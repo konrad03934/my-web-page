@@ -50,6 +50,7 @@ table {
 body {
 	width: 100%;
 	font-family: "Lato", san-serif;
+	background-color: #e0e0e0;
 }
 
 nav {
@@ -97,18 +98,24 @@ header h2 {
 .green {
 	color: #53a800;
 }
-/*style dla sextion*/
+/*style dla section*/
 section {
+	background-color: #ffffff;
 	width: 100%;
+	text-align: center;
+}
+
+#about {
 	padding: 5% 0;
+	display: inline-block;
+	
 }
 
 section h2 {
-	text-align: center;
 	font-size: 1.6em;
+	padding: 20px 0;
+	font-weight: 600;
 }
-
-
 
 .foto {
 	width: 30%;
@@ -116,12 +123,37 @@ section h2 {
 	box-sizing: border-box;
 	padding: 5%;
 	float: left;
+	
 }
 
 article {
 	width: 70%;
+	text-align: left;
 	box-sizing: border-box;
 	padding: 1% 5%;
 	float: right;
+	
 }
 
+article:after, .foto:after {
+	clear: both;
+}
+
+#skills {
+	margin-top: 1%;
+}
+
+#icons {
+	margin-top: 20px;
+	
+}
+
+#icons figure {
+	width: 5%;
+	padding: 15px;
+	display: inline-block;
+}
+
+#portfolio h2 {
+	margin: 30px;
+}
