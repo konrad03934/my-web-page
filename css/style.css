@@ -154,6 +154,7 @@ article:after, .foto:after {
 	display: inline-block;
 }
 
-#portfolio h2 {
-	margin: 30px;
+#portfolio {
+	padding-top: 80px;
 }
+
