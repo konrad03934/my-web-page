@@ -70,7 +70,8 @@ nav ul li {
 
 nav ul li a{
   text-decoration: none;
-	color: #ffffff;
+	color: #6d6969;
+	text-shadow: 1px 1px #934c4c;
 }
 
 /*style dla header*/
@@ -172,7 +173,7 @@ article:after, .foto:after {
 	background: url("../images/formularz.png")  no-repeat;
 	background-size: cover;
 	box-sizing: border-box;
-	border: 1px solid blue;
+	border: 1px solid rgba(44, 44, 255, 0.44);
 	display: inline-block;
 	position: relative;
 }
@@ -198,11 +199,12 @@ article:after, .foto:after {
 	transition: all 0.8s ease-in-out; 
 }
 
+
 #gallery .item-2 {
 	width: 33.333%;
 	height: 100%;
 	box-sizing: border-box;
-	border: 1px solid blue;
+	border: 1px solid rgba(44, 44, 255, 0.44);
 	display: inline-block;
 }
 
@@ -210,9 +212,10 @@ article:after, .foto:after {
 	width: 33.333%;
 	height: 100%;
 	box-sizing: border-box;
-	border: 1px solid blue;
+	border: 1px solid rgba(44, 44, 255, 0.44);
 	display: inline-block;
 }
+
 
 #footer {
 	padding-top: 5%;
@@ -222,7 +225,7 @@ article:after, .foto:after {
 }
 
 #contact {
-	width: 50%;
+	width: 45%;
 	float: left;
 	text-align: left;
 	padding-left: 5%;
@@ -242,20 +245,35 @@ article:after, .foto:after {
 }
 
 #media {
-	padding-top: 3%;
+	padding: 6% 0;
 }
 
 #media i a img {
 	padding: 2%;
 }
 
-#media i a img:first-child{
-	padding-left: 0;
-}
-
 #form {
 	width: 50%;
 	float: right;
+	text-align: left;
+	padding-top: 20px;
+}
+
+#form input, textarea {
+	width: 65%;
+	padding: 1% 0;
+	margin: 3px 0;
+	border: 1px solid #676767;
+	border-radius: 5px;
+	color: #ffffff;
+	background-color: #9a9797;
+}
+
+#form input:last-child {
+	width: 15%;
 	
 }
 
+
+	
+}
