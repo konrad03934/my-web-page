@@ -161,9 +161,9 @@ article:after, .foto:after {
 #gallery {
 	width: 90%;
 	height: 300px;
-	border: 1px solid black;
 	margin: 0 5%;
 	font-size: 0;
+	padding-bottom: 5%;
 }
 
 #gallery .item-1 {
@@ -214,4 +214,48 @@ article:after, .foto:after {
 	display: inline-block;
 }
 
+#footer {
+	padding-top: 5%;
+	background-color: #2c2cff;
+	display: inline-block;
+	color: #ffffff;
+}
+
+#contact {
+	width: 50%;
+	float: left;
+	text-align: left;
+	padding-left: 5%;
+}
+
+#contact address {
+	padding: 3% 0;
+}
+
+#contact p {
+	padding: 1.5% 0;
+}
+
+#contact a {
+	text-decoration: none;
+	color: #ffffff;	
+}
+
+#media {
+	padding-top: 3%;
+}
+
+#media i a img {
+	padding: 2%;
+}
+
+#media i a img:first-child{
+	padding-left: 0;
+}
+
+#form {
+	width: 50%;
+	float: right;
+	
+}
 
