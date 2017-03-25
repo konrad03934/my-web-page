@@ -1,0 +1,72 @@
+@media all and (max-width: 1200px), (max-device-width: 1200px) {
+	#main-nav  {
+		display: none;
+	}
+/*	rozkminić jak to działa i dlaczego tak too stylujemy*/
+	.toggle {
+		display: block;
+		background-color: #e0e0e0;
+		padding: 0 20px;
+		color: #1ac056;
+		font-size: 20px;
+		line-height: 60px;
+		text-decoration: none;
+		text-align: right;
+	}
+	
+	nav #drop:checked + ul {
+		display: block;
+	}
+	
+	#main-nav > li {
+		display: block;
+		width: 100%;
+		padding: 20px;
+		text-align: right;
+	}
+	
+	#main-nav > li a {
+		padding-right: 40px;
+	}
+/*	rozkmina do tego momentu*/
+	
+	.item-1 {
+		width: 50%;
+	}
+	
+	#gallery > div:last-child {
+		width: 66.66%;
+	}
+}
+
+@media all and (max-width: 768px), (max-device-width: 768px) {
+	.main-header-content {
+		padding: 10%;
+	}
+	
+	figure {
+		width: 100%;
+	}
+	
+	article {
+		width: 100%;
+	}
+	
+	img {
+		max-height: inherit;
+	}
+}
+
+@media all and (max-width: 680px), (max-device-width: 680px) {
+	.main-header-content h1 {
+		font-size: 3em;
+	}
+	
+	header h2 {
+		font-size: 1.5em;
+	}
+}
+
+@media all and (max-width: 480px), (max-device-width: 480px) {
+	
+}
