@@ -44,8 +44,10 @@
 		padding: 10%;
 	}
 	
-	figure {
+	#about figure {
 		width: 100%;
+		
+		text-align: center;
 	}
 	
 	article {
