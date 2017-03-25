@@ -267,6 +267,7 @@ article:after, .foto:after {
 	float: right;
 	text-align: left;
 	padding-top: 20px;
+	
 }
 
 #form input, textarea {
@@ -280,10 +281,17 @@ article:after, .foto:after {
 }
 
 #form input:last-child {
-	width: 15%;
-	
+	width: 15%;	
+}
+
+#footer {
+	text-align: left;
+}
+
+.copy {
+	padding: 1% 5%;
+	clear: both;
 }
 
 
-	
-}
+
