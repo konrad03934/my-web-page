@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style-form.css" type="text/css">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<h1>Formularz zgłoszeniowy</h1>
+	</header>
+<!--	sprawdzić metodę-->
+	<form action="https://formspree.io/konradkowalczyk89@gmail.com"
+      method="POST"> 
+  	<div class="wrap-input">
+			<label for="name">Imię:</label><br />
+			<input type="text" name="name" id="name" placeholder="Jan"><br />
+			<label for="surname">Nazwisko:</label><br />
+			<input type="text" name="surnamename" id="surnamename" placeholder="Nowak"><br />
+			<label for="mail">E-mail:</label><br />
+			<input type="email" name="email" id="mail" placeholder="example@akademia108.pl"><br />
+	<!--		jak zrobić żeby wpisywany teks zastępował kreski w polu????/-->
+			<label for="tel">Telefon:</label><br />
+			<input type="text" name="telephopne" placeholder="___-___-___" id="tel"><br />
+    </div>
+    <div class="cities">	
+			<select name="city" id="miasta">
+				<option value="Warszawa">Warszawa</option>
+				<option value="Kraków">Kraków</option>
+				<option value="Wrocław">Wrocław</option>
+			</select><br />
+		</div>
+		<div class="man-woman">
+			<label for="man">Mężczyzna</label>
+			<img src="images/masculine.png" alt="man">
+			<input type="radio" name="gender" value="mężczyzna" id="man" checked="checked">
+			<label for="woman">Kobieta</label>
+			<img src="images/femenine.png" alt="woman">
+			<input type="radio" name="gender" value="kobieta" id="woman">
+		</div>
+		<div class="clause">
+			<p>Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu<br /> (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922). </p><br />
+
+			<input type="checkbox" name="acceptance" id="check">
+			<label for="check">Akceptuję</label><br />
+		</div>
+		<div class="message">	
+			<label for="area">Napisz do nas</label><br />
+			<textarea name="wiadomość" id="area" cols="80" rows="10" placeholder="Twoja wiadomość"></textarea><br />
+
+			<input type="submit" value="Wyślij" id="wyslij">
+		</div>
+	</form>
+
+	
+</body>
+</html>

@@ -34,9 +34,11 @@
 		width: 50%;
 	}
 	
+/*
 	#gallery > div:last-child {
 		width: 66.66%;
 	}
+*/
 }
 
 @media all and (max-width: 768px), (max-device-width: 768px) {
