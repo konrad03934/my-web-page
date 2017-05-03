@@ -66,6 +66,7 @@ nav ul li {
 	display: inline-block;
 	font-weight: 300;
 	padding: 8px 20px;
+	
 }
 
 
@@ -125,8 +126,11 @@ section h2 {
 	max-height: 350px;
 	box-sizing: border-box;
 	padding: 5%;
-	float: left;
-	
+	float: left;	
+}
+
+.foto a img {
+	height: 250px;
 }
 
 article {
@@ -180,15 +184,18 @@ article:after, .foto:after {
 	position: relative;
 }
 
+/*
 #gallery .item-1 a {
-	color: #000;
+	color: #4e4e4e;
 }
+*/
 
 .item-1 #item-content-1 {
 
-	width: 88%;
-	height: 88%;	
-	margin: 5%;
+	width: 90%;
+	height: 90%;
+	margin-top: 5%;
+	
 	box-sizing: border-box;
 	border: 2px solid #c3c3c3;
 	position: absolute;
@@ -209,17 +216,77 @@ article:after, .foto:after {
 #gallery .item-2 {
 /*	width: 33.333%;*/
 	height: 300px;
+	background: url('../images/kalkulator.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	border: 1px solid rgba(44, 44, 255, 0.44);
+	display: inline-block;
+}
+/*style do kalkulatora*/
+.item-2 #item-content-2 {
+
+	width: 90%;
+	height: 90%;	
+	margin-top: 5%;
+	box-sizing: border-box;
+	border: 2px solid #c3c3c3;
+	position: absolute;
+	opacity: 0;	
+	padding-top: 20%;
+	color: #363636;
+	font-size: 25px;
+	text-align: center;
+}
+
+.item-2 #item-content-2:hover {
+	opacity: 1;
+	background-color: rgba(255, 255, 255, 0.4);	
+	transition: all 0.8s ease-in-out; 
+}
+
+
+
+/*
+#gallery .item-3 {
+	width: 33.333%;
+	height: 300px;
+	box-sizing: border-box;
+	border: 1px solid rgba(44, 44, 255, 0.44);
+	display: inline-block;
+}
+*/
+/*style do cv*/
+#gallery .item-3 {
+/*	width: 33.333%;*/
+	height: 300px;
+	background: url('../images/cv.png') no-repeat;
+	background-size: cover;
+	background-position: center;
 	box-sizing: border-box;
 	border: 1px solid rgba(44, 44, 255, 0.44);
 	display: inline-block;
 }
 
-#gallery .item-3 {
-/*	width: 33.333%;*/
-	height: 300px;
+.item-3 #item-content-3 {
+
+	width: 90%;
+	height: 90%;	
+	margin-top: 5%;
 	box-sizing: border-box;
-	border: 1px solid rgba(44, 44, 255, 0.44);
-	display: inline-block;
+	border: 2px solid #c3c3c3;
+	position: absolute;
+	opacity: 0;	
+	padding-top: 20%;
+	color: #363636;
+	font-size: 25px;
+	text-align: center;
+}
+
+.item-3 #item-content-3:hover {
+	opacity: 1;
+	background-color: rgba(255, 255, 255, 0.4);	
+	transition: all 0.8s ease-in-out; 
 }
 
 
